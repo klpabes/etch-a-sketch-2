@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-div {
+    height: 500px;
+    width: 500px;
+    border: 5px solid black;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell-set {
+    display: block;
+}
+
+.cell-set, .main-div {
+    margin: 1rem auto;
+}
+
